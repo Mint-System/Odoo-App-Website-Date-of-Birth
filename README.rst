@@ -3,7 +3,7 @@ Website Date of Birth
 =====================
 
 .. image:: ./static/description/icon.png
-  :width: 150
+  :width: 100
   :alt: Icon
 
 Adds date of birth field to partner and website checkout form.
