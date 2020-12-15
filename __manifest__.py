@@ -11,19 +11,19 @@
     """,
 
     'author': "Mint System GmbH",
-    'website': "https://www.mint-sytem.ch",
-    'category': 'Uncategorized',
-    'version': '13.0.0.0.0',
+    'website': "https://www.mint-system.ch",
+    'category': 'Website',
+    'version': '14.0.1.0.0',
 
-    'depends': ['base', 'website'],
-
-    'data': [
-        #'security/ir.model.access.csv',
-        'views/view_partner_form.xml',
+    'depends': [
+        'base',
+        'website'
     ],
 
-    'demo': [
-        #'demo/demo.xml',
+    'data': [
+        'views/base_view_partner_form.xml',
+        'views/website_sale_address.xml',
+        'data/data.xml',
     ],
 
     'installable': True,
